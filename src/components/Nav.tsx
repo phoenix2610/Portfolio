@@ -11,7 +11,7 @@ const LINKS = [
 
 export function Nav() {
   return (
-    <header className="fixed inset-x-0 top-0 z-40 bg-bg/75 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-40 bg-bg/95">
       <nav className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 sm:px-8" aria-label="Main">
         <a href="#top" className="text-[15px] leading-tight text-ink">
           {PROFILE.first}

@@ -108,7 +108,7 @@ function Carousel() {
             }`}
             style={{ width: CARD_W, marginLeft: `calc(${CARD_W} / -2)` }}
           >
-            <Scrub sprite={p.clips[0].sprite} start={p.clips[0].start} label={`${p.name}: ${p.clips[0].label}`} rule={false} className="self-center" />
+            <Scrub sprite={p.clips[0].sprite} start={p.clips[0].start} interactive={active} label={`${p.name}: ${p.clips[0].label}`} rule={false} className="self-center" />
             <div className="flex flex-col p-6">
               <h3 className="font-mono text-[17px] font-medium leading-snug text-ink">{p.name}</h3>
               <p className="mt-1 font-mono text-xs text-muted">{p.kind}</p>
