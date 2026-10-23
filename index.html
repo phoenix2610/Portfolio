@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tathya Dubey</title>
+    <meta name="description" content="Tathya Dubey, full-stack developer. PlanDestination, TKH Factory, Ultimate Calculator, DevPulse, Gesture Band and a live component lab." />
+    <meta property="og:title" content="Tathya Dubey" />
+    <meta property="og:description" content="Full-stack, systems and AI engineering. Selected work and resumes." />
+    <meta property="og:image" content="/scrub/pd-home-0.webp" />
+    <meta name="theme-color" content="#101010" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="/scrub/pd-home-0.webp" />
+    <script>
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem("theme"); } catch (e) {}
+        if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
