@@ -1,0 +1,1 @@
+{"w": 1440, "h": 900, "steps": [{"go": "http://localhost:5174/", "settle": 7000}, {"eval": "document.documentElement.style.scrollBehavior='auto'"}, {"move": [720, 450]}, {"clip": "apple-scroll"}, {"frames": 4, "delay": 300}, {"scroll": 8400, "frames": 56, "delay": 420, "wheel": true}]}

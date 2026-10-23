@@ -1,0 +1,1 @@
+{"w": 1440, "h": 900, "dark": true, "steps": [{"go": "http://localhost:5175/", "settle": 14000}, {"shot": "collapse-login"}, {"clip": "collapse-portal"}, {"hoverPath": [[200, 200], [1240, 250], [1100, 750], [300, 700], [720, 450]], "frames": 36, "delay": 130}, {"eval": "document.body.innerText.slice(0,200)", "log": "text"}]}

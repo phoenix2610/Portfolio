@@ -1,0 +1,1 @@
+{"w": 1440, "h": 900, "steps": [{"go": "http://localhost:3102/dash/dhaba42", "settle": 6000}, {"shot": "unduo-dash"}, {"clip": "unduo-dash"}, {"hoverPath": [[200, 300], [1240, 300], [1240, 600], [200, 600]], "frames": 20, "delay": 150}, {"go": "http://localhost:3102/dash/dhaba42/qr", "settle": 4000}, {"shot": "unduo-qr"}]}
